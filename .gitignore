@@ -1,0 +1,52 @@
+# dependencies
+venv/
+env/
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# production
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Node modules and production files
+node_modules/
+dist/
+
+# Development tools
+.vscode/
+.idea/
+*.swp
+
+directory_tree.py
+directory_tree_output.txt
+test_directory_tree.py
+
+
+# Temporary files
+*.tmp
+*.temp
+*.t
+
+# Backend specific
+backend/config.py  # Since it contains API keys
